@@ -15,7 +15,7 @@ spec:
    spec:
     containers:
     - name: container
-      image: cloudcamp2022/httpd
+      image: cloudcamp2022/httpd:latest
       envFrom:
       - configMapRef:
           name: httpd-cm-prod
